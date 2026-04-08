@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "295e631b-345b-4226-9b44-03bda706477f",
+    "contentHash": "\u002B\u002BJAYBmJYA\u002B9RjFqbKRzV3ovv2aiAX0e5Iqp36Wl6Nk=",
+    "platformVersion": "10.0.0",
+    "updatedAt": "2026-04-08T08:12:30Z",
+    "updatedBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdAt": "2026-04-08T08:12:30Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "branch": "main"
+  },
+  "content": {
+    "id": "295e631b-345b-4226-9b44-03bda706477f",
+    "accent": "#d0bd35",
+    "route": "anuvva",
+    "description": "anuvva",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "name": "anuvva"
+  }
+}
