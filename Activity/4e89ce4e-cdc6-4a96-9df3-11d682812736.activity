@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "id": "4e89ce4e-cdc6-4a96-9df3-11d682812736",
+    "contentHash": "AV87S8Ffh\u002Bq26/45b/0E/PTbW8Aa2GqRnmJbqkuzbxg=",
+    "platformVersion": "10.0.0",
+    "revisionId": "aeeb9fcf-102b-4341-94ab-a04c63b7cee7",
+    "updatedAt": "0001-01-01T00:00:00Z",
+    "createdAt": "2026-04-08T11:21:31Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "branch": "t2"
+  },
+  "content": {
+    "projectId": "959f0e5a-01ee-4e54-9f0f-fe04b6631af0",
+    "description": "asd",
+    "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "botIds": [],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "activityServiceType": "Stateless",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "4e89ce4e-cdc6-4a96-9df3-11d682812736",
+    "name": "aq"
+  }
+}
