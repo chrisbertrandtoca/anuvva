@@ -23,7 +23,35 @@
           {
             "key": "echo",
             "type": "String",
-            "value": "\u0022a1 here changed\u0022"
+            "value": "\u0022a1 here changed and back\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "datastoreReferences": []
+      },
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "actionId": "06d8765b-06ff-441b-b4fb-6db786ea1902",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022a1 here changed and back\u0022"
           },
           {
             "key": "failOnError",
