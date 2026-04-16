@@ -8,7 +8,7 @@
   },
   "content": {
     "appId": "69df4b91f830c54301f21b3c",
-    "rootSlug": "woozy-chair-8395",
+    "rootSlug": "anuvva",
     "associatedId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "description": "asd",
     "pages": [
