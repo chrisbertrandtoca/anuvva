@@ -11,6 +11,7 @@
     "accent": "#d0bd35",
     "route": "anuvva",
     "description": "anuvva",
+    "repositoryUrl": "https://github.com/chrisbertrandtoca/anuvva.git",
     "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
     "resourceId": "295e631b-345b-4226-9b44-03bda706477f",
     "name": "anuvva"
