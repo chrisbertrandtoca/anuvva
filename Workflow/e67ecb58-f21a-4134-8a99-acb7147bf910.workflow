@@ -3,7 +3,7 @@
     "id": "e67ecb58-f21a-4134-8a99-acb7147bf910",
     "platformVersion": "10.0.0",
     "createdAt": "2026-04-15T08:21:04Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -47,7 +47,7 @@
         ]
       },
       {
-        "category": "Activity",
+        "category": "StatelessActivity",
         "text": "a1",
         "key": 3,
         "loc": "825 325",
@@ -156,7 +156,7 @@
         ]
       },
       {
-        "Type": "Activity",
+        "Type": "StatelessActivity",
         "id": "4af24b5a-e75c-48fb-9f8b-f2629f67b541",
         "name": "a1",
         "description": "a1",
