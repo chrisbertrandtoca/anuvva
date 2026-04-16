@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "id": "3c5f8f94-045f-46ef-ac79-73457f662ba0",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-16T11:37:25Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "listenerId": "3c5f8f94-045f-46ef-ac79-73457f662ba0",
+    "version": "",
+    "public": true,
+    "description": "runa1",
+    "apiKeys": [
+      {
+        "name": "toca.app.661f89c0-dc7b-4921-8d76-14a5833f7122",
+        "expirationDate": "2100-01-01T00:00:00Z",
+        "key": "893cd5f1-aa7d-450f-9265-ac57095803b8"
+      }
+    ],
+    "inputs": [],
+    "workflowId": "e67ecb58-f21a-4134-8a99-acb7147bf910",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "3c5f8f94-045f-46ef-ac79-73457f662ba0",
+    "name": "runa1"
+  }
+}
