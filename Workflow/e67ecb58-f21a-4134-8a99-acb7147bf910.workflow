@@ -3,7 +3,7 @@
     "id": "e67ecb58-f21a-4134-8a99-acb7147bf910",
     "platformVersion": "10.0.0",
     "createdAt": "2026-04-15T08:21:04Z",
-    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -12,11 +12,9 @@
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "description": "ww1",
     "activityIds": [],
-    "associatedAgents": [
-      "9ca4f7a3-a7ae-4377-a3f0-7b796f334729"
-    ],
+    "associatedAgents": [],
     "activitiesAgents": {
-      "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb": "9ca4f7a3-a7ae-4377-a3f0-7b796f334729"
+      "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb": null
     },
     "associatedPools": [],
     "nodeDataArray": [
@@ -66,6 +64,24 @@
             "key": "FailOnError",
             "type": "boolean",
             "value": false
+          }
+        ]
+      },
+      {
+        "category": "ConnectorStart",
+        "text": "Get Connector",
+        "key": 4,
+        "loc": "600 75",
+        "parameters": [
+          {
+            "key": "connectorId",
+            "type": "String",
+            "value": "93e0957b-06a0-41db-9e11-557e1ef2f76b"
+          },
+          {
+            "key": "connectorInstanceId",
+            "type": "String",
+            "value": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6"
           }
         ]
       }
@@ -120,16 +136,49 @@
           ],
           "labelPart": 2
         }
+      },
+      {
+        "from": 4,
+        "to": 1,
+        "linkData": {
+          "path": [
+            [
+              26.5,
+              4
+            ],
+            [
+              27,
+              4
+            ],
+            [
+              27,
+              7
+            ],
+            [
+              26,
+              7
+            ],
+            [
+              26,
+              10
+            ],
+            [
+              26.5,
+              10
+            ]
+          ],
+          "labelPart": 3
+        }
       }
     ],
     "workflow": [
       {
-        "id": "4d06a45d-e53a-4322-9193-6bd5932b9705",
+        "id": "859b3001-f42b-4dda-9076-e8449c6290ef",
         "name": "",
         "description": "",
         "pointers": [
           {
-            "pointsTo": "4af24b5a-e75c-48fb-9f8b-f2629f67b541",
+            "pointsTo": "232d91a7-7536-4385-a0ee-f4fc6e119526",
             "expression": ""
           }
         ],
@@ -143,7 +192,7 @@
       },
       {
         "Type": "End",
-        "id": "e8614fe1-f6f4-456a-a400-c903df5de2aa",
+        "id": "028fcfd8-0816-400a-a773-40f8ff4fd733",
         "name": "",
         "description": "",
         "pointers": [],
@@ -157,12 +206,12 @@
       },
       {
         "Type": "StatelessActivity",
-        "id": "4af24b5a-e75c-48fb-9f8b-f2629f67b541",
+        "id": "232d91a7-7536-4385-a0ee-f4fc6e119526",
         "name": "a1",
         "description": "a1",
         "pointers": [
           {
-            "pointsTo": "e8614fe1-f6f4-456a-a400-c903df5de2aa",
+            "pointsTo": "028fcfd8-0816-400a-a773-40f8ff4fd733",
             "expression": ""
           }
         ],
@@ -184,6 +233,30 @@
           }
         ],
         "activityId": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb"
+      },
+      {
+        "Type": "ConnectorStart",
+        "id": "de0bc44f-6d12-4289-b74a-e067c0696695",
+        "name": "Get Connector",
+        "description": "",
+        "pointers": [
+          {
+            "pointsTo": "859b3001-f42b-4dda-9076-e8449c6290ef",
+            "expression": ""
+          }
+        ],
+        "parameters": [
+          {
+            "key": "connectorId",
+            "type": "String",
+            "value": "93e0957b-06a0-41db-9e11-557e1ef2f76b"
+          },
+          {
+            "key": "connectorInstanceId",
+            "type": "String",
+            "value": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6"
+          }
+        ]
       }
     ],
     "configuration": [],
