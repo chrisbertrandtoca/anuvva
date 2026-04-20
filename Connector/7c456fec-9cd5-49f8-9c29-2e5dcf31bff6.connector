@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "id": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "instanceId": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6",
+    "connectorDefinitionId": "25f90652-f60b-4bbf-9f7a-7aad0be45ff8",
+    "inputMapping": {},
+    "config": [
+      {
+        "key": "route",
+        "type": "String",
+        "value": "connector-7c456fec-9cd5-49f8-9c29-2e5dcf31bff6"
+      }
+    ],
+    "responses": {},
+    "workflowId": "e67ecb58-f21a-4134-8a99-acb7147bf910",
+    "enabled": true,
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6",
+    "name": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6"
+  }
+}
