@@ -2,8 +2,8 @@
   "metadata": {
     "id": "69df4b91f830c54301f21b3c",
     "platformVersion": "10.0.0",
-    "createdAt": "2026-04-15T08:25:53Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdAt": "2026-04-16T21:41:46Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -19,6 +19,79 @@
         "slug": "",
         "name": "Home",
         "parameters": []
+      },
+      {
+        "id": "ee3262bd-f42b-40d4-a06f-d8ea5422010a",
+        "pageId": "69e7a3f88c49917fb2774fd2",
+        "pageEntityId": "f6faca90-94c1-40ec-88b3-4204bd27e3ce",
+        "slug": "local-page",
+        "name": "localPage",
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022lg\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "cc67bcb6-ca14-4852-8beb-f24138677211",
+        "pageId": "69e883988157fe4926bbdbfe",
+        "pageEntityId": "1c525a07-51da-4aca-b311-424a1ddc15dd",
+        "slug": "block-page-with-ipl",
+        "name": "blockPageWithIPL",
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "true"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022md\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean",
+            "value": "true"
+          }
+        ]
       }
     ],
     "dependencies": [

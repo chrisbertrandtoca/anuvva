@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "id": "1c525a07-51da-4aca-b311-424a1ddc15dd",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-22T08:15:20Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "1c525a07-51da-4aca-b311-424a1ddc15dd",
+    "dashBoardId": "69df4b91f830c54301f21b3c",
+    "title": "blockPageWithIPL",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u002254cb0b19-ff43-4463-bca4-3e79a1aa93a4\u0022,\u0022components\u0022:{\u002254cb0b19-ff43-4463-bca4-3e79a1aa93a4\u0022:{\u0022id\u0022:\u002254cb0b19-ff43-4463-bca4-3e79a1aa93a4\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u002232a43cc6-787f-4945-ae2b-51958cb46818\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u002232a43cc6-787f-4945-ae2b-51958cb46818\u0022:{\u0022id\u0022:\u002232a43cc6-787f-4945-ae2b-51958cb46818\u0022,\u0022name\u0022:\u0022Flex Layout_MBsR\u0022,\u0022definitionId\u0022:\u002268ee4f579a09602dc3a17bf7\u0022,\u0022slots\u0022:{\u0022root\u0022:[\u0022d2203be9-e029-40fe-835c-52d563beafca\u0022,\u0022b49ef823-8375-41b6-bfb4-f0f679a6c647\u0022]},\u0022options\u0022:{\u0022spaceBetween\u0022:0,\u0022align\u0022:\u0022stretch\u0022,\u0022justify\u0022:\u0022start\u0022,\u0022direction\u0022:1},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022b49ef823-8375-41b6-bfb4-f0f679a6c647\u0022:{\u0022id\u0022:\u0022b49ef823-8375-41b6-bfb4-f0f679a6c647\u0022,\u0022definitionId\u0022:\u0022block/69e884128157fe4926bbdc02\u0022,\u0022slots\u0022:{},\u0022options\u0022:{},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022d2203be9-e029-40fe-835c-52d563beafca\u0022:{\u0022id\u0022:\u0022d2203be9-e029-40fe-835c-52d563beafca\u0022,\u0022name\u0022:\u0022Hero_TlxE\u0022,\u0022definitionId\u0022:\u0022695d379e2215f7f9ba75d66c\u0022,\u0022slots\u0022:{\u0022hero\u0022:[]},\u0022options\u0022:{},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "version": "0.0.0",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "1c525a07-51da-4aca-b311-424a1ddc15dd",
+    "name": "blockPageWithIPL"
+  }
+}
