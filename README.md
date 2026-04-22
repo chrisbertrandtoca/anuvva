@@ -1,7 +1,7 @@
 # anuvva 🤷‍♂️
 
 ![Build: Failing](https://img.shields.io/badge/build-failing-red)
-![Coverage: 0%](https://img.shields.io/badge/coverage-0%25-red)
+![Coverage: 0.1%](https://img.shields.io/badge/coverage-0%25-red)
 ![Dependencies: 9,001](https://img.shields.io/badge/dependencies-9001-orange)
 ![Days since last incident: 0](https://img.shields.io/badge/days_since_incident-0-yellow)
 
