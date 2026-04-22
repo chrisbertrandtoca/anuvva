@@ -3,27 +3,39 @@
     "id": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb",
     "platformVersion": "10.0.0",
     "createdAt": "2026-04-15T08:15:44Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "schemaVersion": "1.0.0"
   },
   "content": {
     "projectId": "959f0e5a-01ee-4e54-9f0f-fe04b6631af0",
     "description": "a1",
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
-    "botIds": [],
+    "botIds": [
+      "alias:bot-CBPAD"
+    ],
     "version": 1,
     "actions": [
       {
-        "name": "Debug Value",
-        "type": "Debug",
-        "version": "1.0.2",
-        "actionId": "e6d5a166-bac2-4472-b865-70f27420e55d",
-        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "name": "Repeat",
+        "type": "Repeat",
+        "version": "1.0.4",
+        "actionId": "4fe535a9-e2dd-493d-a015-a383a9190cc7",
+        "actionDefinitionActionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
         "parameters": [
           {
-            "key": "echo",
-            "type": "String",
-            "value": "\u0022a1 here changed and back\u0022"
+            "key": "counter",
+            "type": "Number",
+            "value": "1"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "-1"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "false"
           },
           {
             "key": "failOnError",
@@ -31,7 +43,64 @@
             "value": "true"
           }
         ],
-        "actions": [],
+        "actions": [
+          {
+            "name": "Delay",
+            "type": "Delay",
+            "version": "1.0.1",
+            "actionId": "806973ff-224a-4e34-bee3-4b55f758f685",
+            "actionDefinitionActionId": "4afc0589-d3bf-49d3-80e3-240be2146dcf",
+            "parameters": [
+              {
+                "key": "delay",
+                "type": "Number",
+                "value": "100"
+              },
+              {
+                "key": "failOnError",
+                "type": "Boolean",
+                "value": "true"
+              }
+            ],
+            "actions": [],
+            "context": [],
+            "tables": [],
+            "lists": [],
+            "variableMappings": [],
+            "variables": [],
+            "results": [],
+            "logs": [],
+            "datastoreReferences": []
+          },
+          {
+            "name": "Debug Value",
+            "type": "Debug",
+            "version": "1.0.2",
+            "actionId": "e6d5a166-bac2-4472-b865-70f27420e55d",
+            "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+            "parameters": [
+              {
+                "key": "echo",
+                "type": "String",
+                "value": "\u0022a1 here changed and back\u0022"
+              },
+              {
+                "key": "failOnError",
+                "type": "Boolean",
+                "value": "true"
+              }
+            ],
+            "actions": [],
+            "context": [],
+            "tables": [],
+            "lists": [],
+            "variableMappings": [],
+            "variables": [],
+            "results": [],
+            "logs": [],
+            "datastoreReferences": []
+          }
+        ],
         "context": [],
         "tables": [],
         "lists": [],
@@ -51,7 +120,7 @@
           {
             "key": "echo",
             "type": "String",
-            "value": "\u0022a1 here changed and back\u0022"
+            "value": "\u0022a1 here changed\u0022"
           },
           {
             "key": "failOnError",
@@ -73,7 +142,7 @@
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
-    "activityServiceType": "Stateless",
+    "activityServiceType": "Gui",
     "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
     "resourceId": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb",
     "name": "a1"
