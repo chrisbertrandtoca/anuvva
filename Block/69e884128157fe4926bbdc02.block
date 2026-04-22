@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "id": "69e884128157fe4926bbdc02",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-22T08:17:22Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "blockId": "69e884128157fe4926bbdc02",
+    "appId": "69df4b91f830c54301f21b3c",
+    "blueprint": {
+      "version": "2",
+      "rootComponentId": "b49ef823-8375-41b6-bfb4-f0f679a6c647",
+      "components": {
+        "b49ef823-8375-41b6-bfb4-f0f679a6c647": {
+          "id": "b49ef823-8375-41b6-bfb4-f0f679a6c647",
+          "name": "Card_FBqp",
+          "definitionId": "695d37942215f7f9ba75d661",
+          "slots": {
+            "root": [
+              "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e"
+            ]
+          },
+          "options": {
+            "showHeader": true,
+            "title": "Card title",
+            "subheader": [
+              {
+                "kind": "text",
+                "text": "Sub"
+              }
+            ],
+            "outlined": false
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          },
+          "events": {
+            "nodes": [
+              {
+                "key": "onInit",
+                "label": "Component mounted",
+                "icon": "data:image/svg\u002Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8\u002BPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwaC00djRoLTJ2LTRIN3YtMmg0VjdoMnY0aDR2MnoiLz48L3N2Zz4=",
+                "description": "Fires when the component is first rendered",
+                "outputs": [],
+                "category": "event",
+                "position": [
+                  24,
+                  7
+                ],
+                "nodeId": "ce6f32e3-8ad1-4c33-87f0-498e681e49ec",
+                "name": "Component mounted",
+                "map": {}
+              },
+              {
+                "key": "log",
+                "chunkId": "695d36ee2215f7f9ba75d5ee",
+                "category": "action",
+                "definitionId": "a26fd342-ae70-4523-9d6f-873ece35b485",
+                "label": "Log",
+                "outputs": null,
+                "inputs": [
+                  {
+                    "required": true,
+                    "options": null,
+                    "helperText": null,
+                    "enabled": null,
+                    "skipEvaluation": false,
+                    "meta": null,
+                    "key": "value",
+                    "label": "Value",
+                    "type": "Any"
+                  }
+                ],
+                "map": {
+                  "value": "we did it!"
+                },
+                "type": "web",
+                "position": [
+                  30,
+                  7
+                ],
+                "nodeId": "9ff9f858-ca87-4617-a72a-b8e02472e539",
+                "name": "Log"
+              }
+            ],
+            "links": [
+              {
+                "from": "ce6f32e3-8ad1-4c33-87f0-498e681e49ec",
+                "to": "9ff9f858-ca87-4617-a72a-b8e02472e539",
+                "id": "3e063127-5d0b-4996-baa1-c42613f10ca8"
+              }
+            ]
+          }
+        },
+        "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e": {
+          "id": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e",
+          "name": "Stepper_zmbr",
+          "definitionId": "695d37a22215f7f9ba75d66e",
+          "slots": {},
+          "options": {
+            "steps": [
+              {
+                "id": "afa7f880-b453-4b19-8c92-5e48694e14f8",
+                "title": "Step 1"
+              },
+              {
+                "id": "4d9a74bd-a61b-4ac3-a718-d75ef8f2ba49",
+                "title": "Step 2"
+              }
+            ],
+            "orientation": "horizontal",
+            "labelPosition": "side",
+            "stepsHaveChildren": false,
+            "back": {
+              "label": "Back",
+              "color": "primary"
+            },
+            "next": {
+              "label": "Next",
+              "variant": "contained",
+              "color": "primary"
+            },
+            "prevStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_prevStepListener",
+            "nextStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_nextStepListener",
+            "goToStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_goToStepListener",
+            "enableBackStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_enableBackStepListener",
+            "enableNextStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_enableNextStepListener",
+            "disableBackStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_disableBackStepListener",
+            "disableNextStepListener": "95f7381a-4f1b-4319-b5dc-8b3e4c5e569e_disableNextStepListener"
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        }
+      },
+      "viewports": {
+        "414": [],
+        "768": [],
+        "1280": [],
+        "1440": []
+      }
+    },
+    "inputs": [],
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "69e884128157fe4926bbdc02",
+    "name": "CardStepper"
+  }
+}

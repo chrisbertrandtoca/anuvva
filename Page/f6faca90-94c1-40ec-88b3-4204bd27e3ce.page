@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "id": "f6faca90-94c1-40ec-88b3-4204bd27e3ce",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-21T16:21:12Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "f6faca90-94c1-40ec-88b3-4204bd27e3ce",
+    "dashBoardId": "69df4b91f830c54301f21b3c",
+    "title": "localPage",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u002287570cd7-6da9-4625-9cf8-c510252de5c5\u0022,\u0022components\u0022:{\u002287570cd7-6da9-4625-9cf8-c510252de5c5\u0022:{\u0022id\u0022:\u002287570cd7-6da9-4625-9cf8-c510252de5c5\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022dbedd4d3-2cfd-499f-9bc6-31bf12cc1a87\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022dbedd4d3-2cfd-499f-9bc6-31bf12cc1a87\u0022:{\u0022id\u0022:\u0022dbedd4d3-2cfd-499f-9bc6-31bf12cc1a87\u0022,\u0022name\u0022:\u0022Flex Layout_FYYv\u0022,\u0022definitionId\u0022:\u002268ee4f579a09602dc3a17bf7\u0022,\u0022slots\u0022:{\u0022root\u0022:[\u00220867374d-3588-421c-8860-821d98d85f4e\u0022,\u0022a4f29845-bece-41b1-b7d6-9f18269c0ccf\u0022]},\u0022options\u0022:{\u0022spaceBetween\u0022:0,\u0022align\u0022:\u0022stretch\u0022,\u0022justify\u0022:\u0022start\u0022,\u0022direction\u0022:1},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u00220867374d-3588-421c-8860-821d98d85f4e\u0022:{\u0022id\u0022:\u00220867374d-3588-421c-8860-821d98d85f4e\u0022,\u0022name\u0022:\u0022Card_lfnT\u0022,\u0022definitionId\u0022:\u0022695d37942215f7f9ba75d661\u0022,\u0022slots\u0022:{\u0022root\u0022:[\u00226dcf131f-8145-4281-be16-c6b7d9db006f\u0022]},\u0022options\u0022:{\u0022showHeader\u0022:true,\u0022title\u0022:\u0022Card title\u0022,\u0022subheader\u0022:[{\u0022kind\u0022:\u0022text\u0022,\u0022text\u0022:\u0022card sub\u0022}],\u0022outlined\u0022:false},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022a4f29845-bece-41b1-b7d6-9f18269c0ccf\u0022:{\u0022id\u0022:\u0022a4f29845-bece-41b1-b7d6-9f18269c0ccf\u0022,\u0022name\u0022:\u0022Hero_xwxP\u0022,\u0022definitionId\u0022:\u0022695d379e2215f7f9ba75d66c\u0022,\u0022slots\u0022:{\u0022hero\u0022:[]},\u0022options\u0022:{\u0022width\u0022:\u0022640px\u0022,\u0022height\u0022:\u0022auto\u0022,\u0022alignment\u0022:\u0022Center\u0022},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u00226dcf131f-8145-4281-be16-c6b7d9db006f\u0022:{\u0022id\u0022:\u00226dcf131f-8145-4281-be16-c6b7d9db006f\u0022,\u0022name\u0022:\u0022Breadcrumb_EThb\u0022,\u0022definitionId\u0022:\u0022695d37092215f7f9ba75d601\u0022,\u0022slots\u0022:{},\u0022options\u0022:{\u0022useIconAsSeparator\u0022:false,\u0022separator\u0022:\u0022-\u0022,\u0022separatorIcon\u0022:\u0022chevron_right\u0022,\u0022mode\u0022:\u0022manual\u0022,\u0022breadcrumbs\u0022:[{\u0022label\u0022:\u0022\u0022}],\u0022homeLabel\u0022:\u0022Home\u0022,\u0022usePreceedingCrumbs\u0022:false,\u0022preceedingBreadcrumbs\u0022:[],\u0022finalCrumbColor\u0022:\u0022inherit\u0022},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "version": "0.0.0",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "f6faca90-94c1-40ec-88b3-4204bd27e3ce",
+    "name": "localPage"
+  }
+}
