@@ -12,11 +12,7 @@
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "description": "ww1",
     "activityIds": [],
-    "associatedAgents": [],
-    "activitiesAgents": {
-      "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb": null
-    },
-    "associatedPools": [],
+    "filterLevel": "Debug",
     "nodeDataArray": [
       {
         "category": "Start",
@@ -45,7 +41,7 @@
         ]
       },
       {
-        "category": "StatelessActivity",
+        "category": "Activity",
         "text": "a1",
         "key": 3,
         "loc": "825 325",
@@ -173,6 +169,7 @@
     ],
     "workflow": [
       {
+        "Type": "Start",
         "id": "859b3001-f42b-4dda-9076-e8449c6290ef",
         "name": "",
         "description": "",
@@ -188,7 +185,8 @@
             "type": "string",
             "value": ""
           }
-        ]
+        ],
+        "status": 0
       },
       {
         "Type": "End",
@@ -202,10 +200,11 @@
             "type": "string",
             "value": ""
           }
-        ]
+        ],
+        "status": 0
       },
       {
-        "Type": "StatelessActivity",
+        "Type": "Activity",
         "id": "232d91a7-7536-4385-a0ee-f4fc6e119526",
         "name": "a1",
         "description": "a1",
@@ -232,6 +231,7 @@
             "value": false
           }
         ],
+        "status": 0,
         "activityId": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb"
       },
       {
@@ -256,10 +256,12 @@
             "type": "String",
             "value": "7c456fec-9cd5-49f8-9c29-2e5dcf31bff6"
           }
-        ]
+        ],
+        "status": 0
       }
     ],
     "configuration": [],
+    "deactivated": false,
     "validation": {
       "isValid": true,
       "nodeErrors": {},

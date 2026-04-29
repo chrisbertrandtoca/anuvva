@@ -3,7 +3,7 @@
     "id": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb",
     "platformVersion": "10.0.0",
     "createdAt": "2026-04-15T08:15:44Z",
-    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -11,7 +11,7 @@
     "description": "a1",
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "botIds": [
-      "alias:bot-CBPAD"
+      "alias:bot-bot-1"
     ],
     "version": 1,
     "actions": [
@@ -21,6 +21,10 @@
         "version": "1.0.4",
         "actionId": "4fe535a9-e2dd-493d-a015-a383a9190cc7",
         "actionDefinitionActionId": "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
         "parameters": [
           {
             "key": "counter",
@@ -50,6 +54,10 @@
             "version": "1.0.1",
             "actionId": "806973ff-224a-4e34-bee3-4b55f758f685",
             "actionDefinitionActionId": "4afc0589-d3bf-49d3-80e3-240be2146dcf",
+            "disabled": false,
+            "created": "0001-01-01T00:00:00Z",
+            "updated": "0001-01-01T00:00:00Z",
+            "isDeactivated": false,
             "parameters": [
               {
                 "key": "delay",
@@ -70,6 +78,8 @@
             "variables": [],
             "results": [],
             "logs": [],
+            "status": 0,
+            "breakPoint": "None",
             "datastoreReferences": []
           },
           {
@@ -78,6 +88,10 @@
             "version": "1.0.2",
             "actionId": "e6d5a166-bac2-4472-b865-70f27420e55d",
             "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+            "disabled": false,
+            "created": "0001-01-01T00:00:00Z",
+            "updated": "0001-01-01T00:00:00Z",
+            "isDeactivated": false,
             "parameters": [
               {
                 "key": "echo",
@@ -98,6 +112,8 @@
             "variables": [],
             "results": [],
             "logs": [],
+            "status": 0,
+            "breakPoint": "None",
             "datastoreReferences": []
           }
         ],
@@ -108,6 +124,8 @@
         "variables": [],
         "results": [],
         "logs": [],
+        "status": 0,
+        "breakPoint": "None",
         "datastoreReferences": []
       },
       {
@@ -116,6 +134,10 @@
         "version": "1.0.2",
         "actionId": "06d8765b-06ff-441b-b4fb-6db786ea1902",
         "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
         "parameters": [
           {
             "key": "echo",
@@ -136,13 +158,17 @@
         "variables": [],
         "results": [],
         "logs": [],
+        "status": 0,
+        "breakPoint": "None",
         "datastoreReferences": []
       }
     ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
+    "deleted": false,
     "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
     "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
     "resourceId": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb",
     "name": "a1"

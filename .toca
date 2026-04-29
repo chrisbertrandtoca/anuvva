@@ -6,91 +6,101 @@
       "type": "GitActivityResource",
       "id": "6edd2c03-89eb-4d6f-b86b-eedd5b71a363",
       "path": "Activity/6edd2c03-89eb-4d6f-b86b-eedd5b71a363.activity",
-      "updated": "2026-04-22T10:06:02.2238862Z",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [],
-        "appActions": []
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
       }
     },
     {
       "type": "GitBlockResource",
       "id": "69e884128157fe4926bbdc02",
       "path": "Block/69e884128157fe4926bbdc02.block",
-      "updated": "2026-04-22T10:37:34.0616901Z",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [
-          "695d37942215f7f9ba75d661",
-          "695d37a22215f7f9ba75d66e"
-        ],
-        "actions": [],
-        "appActions": [
-          "695d36ee2215f7f9ba75d5ee"
-        ]
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
       }
     },
     {
       "type": "GitPageResource",
       "id": "1c525a07-51da-4aca-b311-424a1ddc15dd",
       "path": "Page/1c525a07-51da-4aca-b311-424a1ddc15dd.page",
-      "updated": "2026-04-22T10:39:29.0313387Z",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [
-          "68ee4f579a09602dc3a17bf7",
-          "block/69e884128157fe4926bbdc02",
-          "695d379e2215f7f9ba75d66c"
-        ],
-        "actions": [],
-        "appActions": []
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
       }
     },
     {
       "type": "GitPageResource",
       "id": "f6faca90-94c1-40ec-88b3-4204bd27e3ce",
       "path": "Page/f6faca90-94c1-40ec-88b3-4204bd27e3ce.page",
-      "updated": "2026-04-22T11:00:02.4475333Z",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [
-          "68ee4f579a09602dc3a17bf7",
-          "695d37942215f7f9ba75d661",
-          "695d379e2215f7f9ba75d66c",
-          "695d37092215f7f9ba75d601"
-        ],
-        "actions": [],
-        "appActions": []
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
       }
     },
     {
       "type": "GitActivityResource",
       "id": "85cf30e6-f8f1-421a-a9d2-f8483b1a63eb",
       "path": "Activity/85cf30e6-f8f1-421a-a9d2-f8483b1a63eb.activity",
-      "updated": "2026-04-22T11:37:05.5907869Z",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [
-          "a62ecaca-85b3-4f5d-b00b-d6cdc7023daa",
-          "4afc0589-d3bf-49d3-80e3-240be2146dcf",
-          "fb707467-e3b5-44da-a74f-3b6ca383791c"
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitAppResource",
+      "id": "69df4b91f830c54301f21b3c",
+      "path": "App/69df4b91f830c54301f21b3c.app",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "855a4895-2690-4e86-8c2c-a95131f5bc65",
+      "path": "Page/855a4895-2690-4e86-8c2c-a95131f5bc65.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+            "name": "Card",
+            "version": "0.0.5"
+          },
+          {
+            "definitionId": "381722b6-3651-4503-ab11-65de3323e67e",
+            "name": "Interactive Data Table",
+            "version": "0.0.1"
+          },
+          {
+            "definitionId": "cfe16000-b20d-488e-b9a6-17e3123cbf36",
+            "name": "Form Layout",
+            "version": "1.3.2"
+          },
+          {
+            "definitionId": "d61cd236-8331-4bf5-b38e-ba5785daf28a",
+            "name": "Submit Button",
+            "version": "0.1.2"
+          },
+          {
+            "definitionId": "6864efdd5f426c1a89c85188"
+          }
         ],
-        "appActions": []
+        "appActionsDetails": []
       }
     }
   ],
-  "environmentMappings": [
-    {
-      "resourceType": "Bot",
-      "aliasKey": "bot-CBPAD",
-      "aliasValue": "alias:bot-CBPAD"
-    }
-  ]
+  "environmentMappings": []
 }

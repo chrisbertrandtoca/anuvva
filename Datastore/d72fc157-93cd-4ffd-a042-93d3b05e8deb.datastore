@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "id": "d72fc157-93cd-4ffd-a042-93d3b05e8deb",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-16T11:36:53Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "uuid": "d72fc157-93cd-4ffd-a042-93d3b05e8deb",
+    "description": "ds1",
+    "datastoreType": "Internal",
+    "datastoreParameters": [
+      {
+        "datastoreId": "d72fc157-93cd-4ffd-a042-93d3b05e8deb",
+        "uuid": "019da9d4-4a42-76f5-9a50-9bbc422842c6",
+        "key": "v2",
+        "type": "String",
+        "value": "vtwo",
+        "revision": "019da9d4-4a42-76f6-914f-ae8ac2e1894f"
+      },
+      {
+        "datastoreId": "d72fc157-93cd-4ffd-a042-93d3b05e8deb",
+        "uuid": "db0e808b-3515-41b6-9fd3-a26c97ad0b23",
+        "key": "fileDrive",
+        "type": "FilesLocator",
+        "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
+        "revision": "019d9bd5-ed67-7157-874f-b66667ec7080"
+      }
+    ],
+    "tables": [
+      {
+        "id": "9b2ea37f-6a6a-480b-9ab2-a2d99ae024c0",
+        "datastoreParameterId": "f204c000-bbf9-4d33-a31b-70539d73bc26",
+        "model": {
+          "id": {
+            "name": "id",
+            "label": "id",
+            "type": "uuid",
+            "isPrimaryKey": true,
+            "constraints": {
+              "isNotNull": true,
+              "dataType": "Uuid"
+            }
+          },
+          "created": {
+            "name": "created",
+            "label": "Created",
+            "type": "datetime",
+            "metaData": {
+              "autoGenerate": true
+            },
+            "constraints": {
+              "dataType": "DateTime"
+            }
+          },
+          "updated": {
+            "name": "updated",
+            "label": "Updated",
+            "type": "datetime",
+            "metaData": {
+              "autoGenerate": true,
+              "autoUpdate": true
+            },
+            "constraints": {
+              "dataType": "DateTime"
+            }
+          }
+        },
+        "relationships": [],
+        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u00609b2ea37f-6a6a-480b-9ab2-a2d99ae024c0\u0060 c",
+        "nonRecursiveSelectQuery": "SELECT c.* FROM \u00609b2ea37f-6a6a-480b-9ab2-a2d99ae024c0\u0060 c ",
+        "indexes": [
+          {
+            "name": "PRIMARY",
+            "columns": {
+              "id": "Ascending"
+            },
+            "unique": true,
+            "type": "BTree"
+          }
+        ],
+        "position": [
+          2,
+          9
+        ]
+      }
+    ],
+    "tableMigrations": [],
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "d72fc157-93cd-4ffd-a042-93d3b05e8deb",
+    "name": "ds1"
+  }
+}
