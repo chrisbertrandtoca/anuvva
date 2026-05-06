@@ -187,6 +187,16 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitDatastoreResource",
+      "id": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
+      "path": "Datastore/ef62dfaf-443c-41ca-a8c5-d6a4b3845008.datastore",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []

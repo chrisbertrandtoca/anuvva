@@ -13,6 +13,14 @@
     "datastoreParameters": [
       {
         "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
+        "uuid": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "key": "Makers",
+        "type": "TableV3",
+        "value": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "revision": "019dfddf-c398-75c5-9412-bc47ad6c8f37"
+      },
+      {
+        "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
         "uuid": "019da9e1-504b-7003-bd9c-52d670877528",
         "key": "fileDrive",
         "type": "FilesLocator",
@@ -26,6 +34,14 @@
         "type": "String",
         "value": "v2",
         "revision": "019da9e1-7b88-7585-ac85-7025ab35c1ec"
+      },
+      {
+        "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
+        "uuid": "019dfdde-e8a6-70bb-9992-54cd19dc475b",
+        "key": "aas",
+        "type": "String",
+        "value": "assa",
+        "revision": "019dfdde-e8a8-767d-b649-7b17d1eb197c"
       }
     ],
     "tables": [
@@ -39,37 +55,65 @@
             "type": "uuid",
             "isPrimaryKey": true,
             "constraints": {
-              "isNotNull": true
+              "isUnique": false,
+              "isNotNull": true,
+              "dataType": "Uuid"
             }
           },
           "created": {
             "name": "created",
             "label": "Created",
             "type": "datetime",
+            "isPrimaryKey": false,
             "metaData": {
               "autoGenerate": true
             },
-            "constraints": {}
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
           },
           "updated": {
             "name": "updated",
             "label": "Updated",
             "type": "datetime",
+            "isPrimaryKey": false,
             "metaData": {
               "autoGenerate": true,
               "autoUpdate": true
             },
-            "constraints": {}
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
           },
           "name": {
             "name": "name",
             "label": "name",
             "type": "string",
-            "constraints": {}
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "Text"
+            }
+          },
+          "enabled": {
+            "name": "enabled",
+            "label": "enabled",
+            "type": "boolean",
+            "defaultValue": true,
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false
+            }
           }
         },
         "relationships": [],
-        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 c",
+        "selectQuery": "SELECT c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060enabled\u0060 AS \u0027c.enabled\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 c",
         "nonRecursiveSelectQuery": "SELECT c.* FROM \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 c ",
         "indexes": [
           {
@@ -85,10 +129,19 @@
           37,
           11
         ],
-        "revision": "019da9e7-2314-7062-9cfe-2559c9ffa582"
+        "revision": "019dfddf-c398-75c5-9412-bc47ad6c8f37"
       }
     ],
     "tableMigrations": [
+      {
+        "revisionId": "019dfddf-c398-75c5-9412-bc47ad6c8f37",
+        "tableName": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "created": "2026-05-06T15:19:53Z",
+        "upSql": "ALTER TABLE \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 ADD \u0060enabled\u0060 BOOLEAN NULL;\n",
+        "upFriendlyName": "Add column \u0060enabled\u0060 to table \u0060Makers\u0060",
+        "downSql": "ALTER TABLE \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 DROP COLUMN \u0060enabled\u0060;",
+        "downFriendlyName": "Drop column \u0060enabled\u0060 from table \u0060Makers\u0060"
+      },
       {
         "revisionId": "019da9e7-2330-76aa-a41b-070fc9326fee",
         "created": "2026-04-20T07:59:50Z",
@@ -96,6 +149,15 @@
         "upFriendlyName": "Create linking tables ",
         "downSql": "",
         "downFriendlyName": "Drop linking tables "
+      },
+      {
+        "revisionId": "019dfddf-c2f9-715b-abb9-8eb841fa145a",
+        "tableName": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "created": "2026-05-06T15:19:53Z",
+        "upSql": "DROP INDEX IF EXISTS \u0060PRIMARY\u0060 ON \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060;",
+        "upFriendlyName": "Drop index \u0060PRIMARY\u0060 on table \u0060Makers\u0060",
+        "downSql": "CREATE UNIQUE INDEX \u0060PRIMARY\u0060 ON \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 (\u0060id\u0060 ASC) USING BTREE;",
+        "downFriendlyName": "Add index \u0060PRIMARY\u0060 to table \u0060Makers\u0060"
       }
     ],
     "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
