@@ -1,81 +1,29 @@
 {
   "metadata": {
-    "id": "69df4b91f830c54301f21b3c",
+    "id": "69f99441131d32261477338b",
     "platformVersion": "10.0.0",
-    "createdAt": "2026-04-15T08:25:53Z",
+    "createdAt": "2026-05-05T06:54:57Z",
     "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "schemaVersion": "1.0.0"
   },
   "content": {
-    "appId": "69df4b91f830c54301f21b3c",
-    "rootSlug": "woozy-chair-8395",
+    "appId": "69f99441131d32261477338b",
+    "rootSlug": "testy-convert",
     "associatedId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
-    "description": "asd",
+    "description": "Deployzzz",
     "pages": [
       {
-        "id": "51afc89d-b19b-4e94-97ec-8b46eac5019a",
-        "pageId": "69df4b92f830c54301f21b3d",
-        "pageEntityId": "855a4895-2690-4e86-8c2c-a95131f5bc65",
+        "id": "b9fa8683-1cb0-433c-bcea-da972d501c6f",
+        "pageId": "69f99441131d32261477338c",
+        "pageEntityId": "27dba0a7-aa06-4810-a98d-59d79916339e",
         "slug": "",
         "name": "Home",
         "hidden": false,
         "restricted": false,
         "parameters": []
-      },
-      {
-        "id": "2aaded82-c7e2-4bbb-a5b7-35ed1a40c372",
-        "pageId": "69f214a3f8297d145edec0f9",
-        "pageEntityId": "8b7e057a-e7bb-4450-8b82-2d9a7d9ba050",
-        "slug": "page-with-ipl",
-        "name": "pageWithIPL",
-        "hidden": false,
-        "restricted": false,
-        "parameters": [
-          {
-            "key": "modalFullHeight",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "modalWidth",
-            "type": "string",
-            "value": "\u0022lg\u0022"
-          },
-          {
-            "key": "dynamic",
-            "type": "boolean",
-            "value": "false"
-          },
-          {
-            "key": "dynamicSource",
-            "type": "parameter"
-          },
-          {
-            "key": "dynamicKey",
-            "type": "string"
-          },
-          {
-            "key": "modalTitle",
-            "type": "boolean"
-          }
-        ]
       }
     ],
-    "dependencies": [
-      {
-        "entityId": "d72fc157-93cd-4ffd-a042-93d3b05e8deb",
-        "type": "datastore",
-        "meta": {
-          "projectId": null,
-          "datastoreType": "Internal"
-        }
-      },
-      {
-        "entityId": "runa1",
-        "type": "listener",
-        "meta": {}
-      }
-    ],
+    "dependencies": [],
     "parameters": [
       {
         "key": "viewportMigration",
@@ -135,8 +83,26 @@
     "enablePWA": false,
     "deleted": false,
     "demoable": false,
+    "translations": {
+      "languages": [
+        "en",
+        "pl"
+      ],
+      "defaultLanguage": "en",
+      "tables": [
+        {
+          "tableId": "2c180b15-5355-4557-95cc-ffdcfc0b8bab",
+          "entityType": "Custom"
+        },
+        {
+          "tableId": "380f4d44-d9e8-4da4-a170-fe86a9a49415",
+          "entityType": "Page",
+          "entityId": "27dba0a7-aa06-4810-a98d-59d79916339e"
+        }
+      ]
+    },
     "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
-    "resourceId": "69df4b91f830c54301f21b3c",
-    "name": "vvvva"
+    "resourceId": "69f99441131d32261477338b",
+    "name": "Deployzzz"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "id": "58f75ac4-aaad-4845-b842-c1ab34fe1f74",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-06T14:04:57Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "959f0e5a-01ee-4e54-9f0f-fe04b6631af0",
+    "jobName": "ww1",
+    "jobId": "58f75ac4-aaad-4845-b842-c1ab34fe1f74",
+    "userId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "workflowId": "e67ecb58-f21a-4134-8a99-acb7147bf910",
+    "jobArgs": [],
+    "cron": "4 14 6 5 *",
+    "startDateTime": "2026-05-06T14:04:00Z",
+    "oneOffDateTime": "0001-01-01T00:00:00Z",
+    "unitOfInterval": 6,
+    "interval": 1,
+    "enabled": true,
+    "deactivated": false,
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "58f75ac4-aaad-4845-b842-c1ab34fe1f74",
+    "name": "ww1"
+  }
+}

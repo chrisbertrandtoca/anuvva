@@ -100,6 +100,93 @@
         ],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "8b7e057a-e7bb-4450-8b82-2d9a7d9ba050",
+      "path": "Page/8b7e057a-e7bb-4450-8b82-2d9a7d9ba050.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitAppResource",
+      "id": "69f99441131d32261477338b",
+      "path": "App/69f99441131d32261477338b.app",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "27dba0a7-aa06-4810-a98d-59d79916339e",
+      "path": "Page/27dba0a7-aa06-4810-a98d-59d79916339e.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+            "name": "Card",
+            "version": "0.0.5"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitTranslationResource",
+      "id": "2c180b15-5355-4557-95cc-ffdcfc0b8bab",
+      "path": "Translation/2c180b15-5355-4557-95cc-ffdcfc0b8bab.translation",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitTranslationResource",
+      "id": "380f4d44-d9e8-4da4-a170-fe86a9a49415",
+      "path": "Translation/380f4d44-d9e8-4da4-a170-fe86a9a49415.translation",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "959f0e5a-01ee-4e54-9f0f-fe04b6631af0",
+      "path": "Project/959f0e5a-01ee-4e54-9f0f-fe04b6631af0.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitScheduleResource",
+      "id": "58f75ac4-aaad-4845-b842-c1ab34fe1f74",
+      "path": "Schedule/58f75ac4-aaad-4845-b842-c1ab34fe1f74.schedule",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []

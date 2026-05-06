@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "8b7e057a-e7bb-4450-8b82-2d9a7d9ba050",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-29T14:24:35Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "8b7e057a-e7bb-4450-8b82-2d9a7d9ba050",
+    "dashBoardId": "69df4b91f830c54301f21b3c",
+    "title": "pageWithIPL",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u0022d7d40ce2-aff6-451c-b622-8aba2ec46488\u0022,\u0022components\u0022:{\u0022d7d40ce2-aff6-451c-b622-8aba2ec46488\u0022:{\u0022id\u0022:\u0022d7d40ce2-aff6-451c-b622-8aba2ec46488\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022a8b8181c-1162-48f3-9208-ec0635cdefba\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022a8b8181c-1162-48f3-9208-ec0635cdefba\u0022:{\u0022id\u0022:\u0022a8b8181c-1162-48f3-9208-ec0635cdefba\u0022,\u0022name\u0022:\u0022Flex Layout_btlp\u0022,\u0022definitionId\u0022:\u0022c86e9279-7213-4e99-9646-c65f9c98b9ca\u0022,\u0022slots\u0022:{\u0022root\u0022:[]},\u0022options\u0022:{\u0022spaceBetween\u0022:0,\u0022align\u0022:\u0022stretch\u0022,\u0022justify\u0022:\u0022start\u0022,\u0022direction\u0022:1},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]},\u0022events\u0022:{\u0022nodes\u0022:[{\u0022key\u0022:\u0022onInit\u0022,\u0022label\u0022:\u0022Component mounted\u0022,\u0022icon\u0022:\u0022data:image/svg\u002Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8\u002BPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwaC00djRoLTJ2LTRIN3YtMmg0VjdoMnY0aDR2MnoiLz48L3N2Zz4=\u0022,\u0022description\u0022:\u0022Fires when the component is first rendered\u0022,\u0022outputs\u0022:[],\u0022category\u0022:\u0022event\u0022,\u0022position\u0022:[10,9],\u0022nodeId\u0022:\u0022797f34ef-e577-4766-8701-ed07d8db01b1\u0022,\u0022name\u0022:\u0022Component mounted\u0022,\u0022map\u0022:{}},{\u0022key\u0022:\u0022log\u0022,\u0022category\u0022:\u0022action\u0022,\u0022definitionId\u0022:\u0022a26fd342-ae70-4523-9d6f-873ece35b485\u0022,\u0022label\u0022:\u0022Log\u0022,\u0022outputs\u0022:null,\u0022inputs\u0022:[{\u0022required\u0022:true,\u0022options\u0022:null,\u0022helperText\u0022:null,\u0022enabled\u0022:null,\u0022skipEvaluation\u0022:false,\u0022meta\u0022:null,\u0022key\u0022:\u0022value\u0022,\u0022label\u0022:\u0022Value\u0022,\u0022type\u0022:\u0022Any\u0022}],\u0022map\u0022:{\u0022value\u0022:\u0022yay\u0022},\u0022position\u0022:[18,9],\u0022nodeId\u0022:\u00222490cf28-797d-498c-9260-8bc313df3f3b\u0022,\u0022name\u0022:\u0022Log\u0022}],\u0022links\u0022:[{\u0022from\u0022:\u0022797f34ef-e577-4766-8701-ed07d8db01b1\u0022,\u0022to\u0022:\u00222490cf28-797d-498c-9260-8bc313df3f3b\u0022,\u0022id\u0022:\u0022639c2b6c-7a61-4e4e-941f-4e2baf57e5c7\u0022}]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "deleted": false,
+    "version": "0.0.0",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "8b7e057a-e7bb-4450-8b82-2d9a7d9ba050",
+    "name": "pageWithIPL"
+  }
+}

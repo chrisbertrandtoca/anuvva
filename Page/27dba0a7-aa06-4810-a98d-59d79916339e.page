@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "27dba0a7-aa06-4810-a98d-59d79916339e",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-05T06:54:57Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "27dba0a7-aa06-4810-a98d-59d79916339e",
+    "dashBoardId": "69f99441131d32261477338b",
+    "title": "Home",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u00221d13a72c-a6c1-4613-8826-2cd9afa11984\u0022,\u0022components\u0022:{\u00221d13a72c-a6c1-4613-8826-2cd9afa11984\u0022:{\u0022id\u0022:\u00221d13a72c-a6c1-4613-8826-2cd9afa11984\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022fec4130a-2a9e-4bd8-a059-6d69dac750c9\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022fec4130a-2a9e-4bd8-a059-6d69dac750c9\u0022:{\u0022id\u0022:\u0022fec4130a-2a9e-4bd8-a059-6d69dac750c9\u0022,\u0022name\u0022:\u0022Flex Layout_JVzy\u0022,\u0022definitionId\u0022:\u0022c86e9279-7213-4e99-9646-c65f9c98b9ca\u0022,\u0022slots\u0022:{\u0022root\u0022:[\u00225fc51eed-4752-4fad-a557-7fc1559ec1ee\u0022]},\u0022options\u0022:{\u0022spaceBetween\u0022:0,\u0022align\u0022:\u0022stretch\u0022,\u0022justify\u0022:\u0022start\u0022,\u0022direction\u0022:1},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u00225fc51eed-4752-4fad-a557-7fc1559ec1ee\u0022:{\u0022id\u0022:\u00225fc51eed-4752-4fad-a557-7fc1559ec1ee\u0022,\u0022name\u0022:\u0022Card_dHFH\u0022,\u0022definitionId\u0022:\u0022000fb580-28fa-4798-a568-504aef84b5d2\u0022,\u0022slots\u0022:{\u0022root\u0022:[]},\u0022options\u0022:{\u0022showHeader\u0022:true,\u0022title\u0022:[{\u0022kind\u0022:\u0022chip\u0022,\u0022chip\u0022:{\u0022type\u0022:\u0022Translation\u0022,\u0022translationTable\u0022:\u0022380f4d44-d9e8-4da4-a170-fe86a9a49415\u0022,\u0022key\u0022:\u0022Card_dHFH_title_[0]\u0022}},{\u0022kind\u0022:\u0022text\u0022,\u0022text\u0022:\u0022\u0022}],\u0022subheader\u0022:[{\u0022kind\u0022:\u0022chip\u0022,\u0022chip\u0022:{\u0022type\u0022:\u0022Translation\u0022,\u0022translationTable\u0022:\u0022380f4d44-d9e8-4da4-a170-fe86a9a49415\u0022,\u0022key\u0022:\u0022Card_dHFH_subheader_[0]\u0022}},{\u0022kind\u0022:\u0022text\u0022,\u0022text\u0022:\u0022\u0022}],\u0022outlined\u0022:false},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "deleted": false,
+    "version": "0.0.0",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "27dba0a7-aa06-4810-a98d-59d79916339e",
+    "name": "Home"
+  }
+}
