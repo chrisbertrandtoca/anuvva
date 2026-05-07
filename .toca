@@ -197,6 +197,61 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "7287e528-dc4f-4056-add9-8be78b00cec0",
+      "path": "Page/7287e528-dc4f-4056-add9-8be78b00cec0.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "block/69fbac436122b0a16697038a"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "69fbac436122b0a16697038a",
+      "path": "Block/69fbac436122b0a16697038a.block",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+            "name": "Card",
+            "version": "0.0.5"
+          }
+        ],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitWorkflowResource",
+      "id": "8a6c7993-f521-4a49-8e70-be960f7001a7",
+      "path": "Workflow/8a6c7993-f521-4a49-8e70-be960f7001a7.workflow",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitConnectorResource",
+      "id": "f4496b34-0a37-47bf-bf52-0e3271ed8d87",
+      "path": "Connector/f4496b34-0a37-47bf-bf52-0e3271ed8d87.connector",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []

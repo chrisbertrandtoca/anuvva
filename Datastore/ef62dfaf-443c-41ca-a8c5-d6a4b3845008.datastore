@@ -13,14 +13,6 @@
     "datastoreParameters": [
       {
         "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
-        "uuid": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
-        "key": "Makers",
-        "type": "TableV3",
-        "value": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
-        "revision": "019dfddf-c398-75c5-9412-bc47ad6c8f37"
-      },
-      {
-        "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
         "uuid": "019da9e1-504b-7003-bd9c-52d670877528",
         "key": "fileDrive",
         "type": "FilesLocator",
@@ -37,11 +29,35 @@
       },
       {
         "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
+        "uuid": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "key": "Makers",
+        "type": "TableV3",
+        "value": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "revision": "019dfddf-c398-75c5-9412-bc47ad6c8f37"
+      },
+      {
+        "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
         "uuid": "019dfdde-e8a6-70bb-9992-54cd19dc475b",
         "key": "aas",
         "type": "String",
         "value": "assa",
         "revision": "019dfdde-e8a8-767d-b649-7b17d1eb197c"
+      },
+      {
+        "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
+        "uuid": "019dfde0-c0e8-7605-b6ca-946ac86155c0",
+        "key": "mkview_updated",
+        "type": "View",
+        "value": "{\u0022uuid\u0022:\u0022c61259a6-406f-4eea-86a0-96b8698f759c\u0022,\u0022query\u0022:null,\u0022name\u0022:\u0022mkview\u0022,\u0022tableId\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9\u0022,\u0022joins\u0022:null,\u0022groupBy\u0022:null,\u0022having\u0022:null,\u0022datastoreId\u0022:\u0022ef62dfaf-443c-41ca-a8c5-d6a4b3845008\u0022,\u0022datastoreParameterId\u0022:\u0022019dfde0-c0e8-7605-b6ca-946ac86155c0\u0022,\u0022columns\u0022:[{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.id\u0022,\u0022name\u0022:\u0022makers_id\u0022,\u0022label\u0022:\u0022Makers id\u0022},{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.name\u0022,\u0022name\u0022:\u0022name\u0022,\u0022label\u0022:\u0022name\u0022},{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.enabled\u0022,\u0022name\u0022:\u0022enabled\u0022,\u0022label\u0022:\u0022enabled\u0022}],\u0022workspaceId\u0022:\u002200000000-0000-0000-0000-000000000000\u0022,\u0022branch\u0022:\u0022main\u0022,\u0022tableIds\u0022:[\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9\u0022]}",
+        "revision": "019dfde0-c0e7-7372-b2a9-3ceed88737b8"
+      },
+      {
+        "datastoreId": "ef62dfaf-443c-41ca-a8c5-d6a4b3845008",
+        "uuid": "019dfde1-0b07-7444-b1ad-7fbcfacc059c",
+        "key": "asd",
+        "type": "View",
+        "value": "{\u0022uuid\u0022:\u002232ba5690-29e6-456f-8bcd-13c16322ef1d\u0022,\u0022query\u0022:null,\u0022name\u0022:\u0022asd\u0022,\u0022tableId\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9\u0022,\u0022joins\u0022:null,\u0022groupBy\u0022:null,\u0022having\u0022:null,\u0022datastoreId\u0022:\u0022ef62dfaf-443c-41ca-a8c5-d6a4b3845008\u0022,\u0022datastoreParameterId\u0022:\u0022019dfde1-0b07-7444-b1ad-7fbcfacc059c\u0022,\u0022columns\u0022:[{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.id\u0022,\u0022name\u0022:\u0022makers_id\u0022,\u0022label\u0022:\u0022Makers id\u0022},{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.created\u0022,\u0022name\u0022:\u0022created\u0022,\u0022label\u0022:\u0022Created\u0022},{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.updated\u0022,\u0022name\u0022:\u0022updated\u0022,\u0022label\u0022:\u0022Updated\u0022},{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.name\u0022,\u0022name\u0022:\u0022name\u0022,\u0022label\u0022:\u0022name\u0022},{\u0022id\u0022:\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9.enabled\u0022,\u0022name\u0022:\u0022enabled\u0022,\u0022label\u0022:\u0022enabled\u0022}],\u0022workspaceId\u0022:\u002200000000-0000-0000-0000-000000000000\u0022,\u0022branch\u0022:\u0022main\u0022,\u0022tableIds\u0022:[\u0022019da9e7-22aa-7256-820a-f39bd5fed6d9\u0022]}",
+        "revision": "019dfde1-0b07-7441-bd28-38636fffe29e"
       }
     ],
     "tables": [
@@ -108,7 +124,8 @@
             "isPrimaryKey": false,
             "constraints": {
               "isUnique": false,
-              "isNotNull": false
+              "isNotNull": false,
+              "dataType": "Boolean"
             }
           }
         },
@@ -129,19 +146,10 @@
           37,
           11
         ],
-        "revision": "019dfddf-c398-75c5-9412-bc47ad6c8f37"
+        "revision": "019da9e7-2314-7062-9cfe-2559c9ffa582"
       }
     ],
     "tableMigrations": [
-      {
-        "revisionId": "019dfddf-c398-75c5-9412-bc47ad6c8f37",
-        "tableName": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
-        "created": "2026-05-06T15:19:53Z",
-        "upSql": "ALTER TABLE \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 ADD \u0060enabled\u0060 BOOLEAN NULL;\n",
-        "upFriendlyName": "Add column \u0060enabled\u0060 to table \u0060Makers\u0060",
-        "downSql": "ALTER TABLE \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 DROP COLUMN \u0060enabled\u0060;",
-        "downFriendlyName": "Drop column \u0060enabled\u0060 from table \u0060Makers\u0060"
-      },
       {
         "revisionId": "019da9e7-2330-76aa-a41b-070fc9326fee",
         "created": "2026-04-20T07:59:50Z",
@@ -158,6 +166,15 @@
         "upFriendlyName": "Drop index \u0060PRIMARY\u0060 on table \u0060Makers\u0060",
         "downSql": "CREATE UNIQUE INDEX \u0060PRIMARY\u0060 ON \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 (\u0060id\u0060 ASC) USING BTREE;",
         "downFriendlyName": "Add index \u0060PRIMARY\u0060 to table \u0060Makers\u0060"
+      },
+      {
+        "revisionId": "019dfddf-c398-75c5-9412-bc47ad6c8f37",
+        "tableName": "019da9e7-22aa-7256-820a-f39bd5fed6d9",
+        "created": "2026-05-06T15:19:53Z",
+        "upSql": "ALTER TABLE \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 ADD \u0060enabled\u0060 BOOLEAN NULL;\n",
+        "upFriendlyName": "Add column \u0060enabled\u0060 to table \u0060Makers\u0060",
+        "downSql": "ALTER TABLE \u0060019da9e7-22aa-7256-820a-f39bd5fed6d9\u0060 DROP COLUMN \u0060enabled\u0060;",
+        "downFriendlyName": "Drop column \u0060enabled\u0060 from table \u0060Makers\u0060"
       }
     ],
     "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",

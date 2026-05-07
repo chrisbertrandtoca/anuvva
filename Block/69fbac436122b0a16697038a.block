@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "id": "69fbac436122b0a16697038a",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-06T21:01:55Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "blockId": "69fbac436122b0a16697038a",
+    "appId": "69f99441131d32261477338b",
+    "blueprint": {
+      "version": "2",
+      "rootComponentId": "c6c28740-3519-4957-bf4d-648e42d1d0c1",
+      "components": {
+        "c6c28740-3519-4957-bf4d-648e42d1d0c1": {
+          "id": "c6c28740-3519-4957-bf4d-648e42d1d0c1",
+          "name": "Flex Layout_PYsH",
+          "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+          "slots": {
+            "root": [
+              "0e1832cf-0539-49f1-9f36-c5f4c48cb946"
+            ]
+          },
+          "options": {
+            "spaceBetween": 0,
+            "align": "stretch",
+            "justify": "start",
+            "direction": 1
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        },
+        "0e1832cf-0539-49f1-9f36-c5f4c48cb946": {
+          "id": "0e1832cf-0539-49f1-9f36-c5f4c48cb946",
+          "name": "Card_FSln",
+          "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+          "slots": {
+            "root": []
+          },
+          "options": {
+            "showHeader": true,
+            "title": "Card title",
+            "subheader": "",
+            "outlined": false
+          },
+          "slotProps": {},
+          "classes": {
+            "root": []
+          }
+        }
+      },
+      "viewports": {
+        "414": [],
+        "768": [],
+        "1280": [],
+        "1440": []
+      }
+    },
+    "inputs": [],
+    "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "deleted": false,
+    "global": false,
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "69fbac436122b0a16697038a",
+    "name": "flexyBlock"
+  }
+}

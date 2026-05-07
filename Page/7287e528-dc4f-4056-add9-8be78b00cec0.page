@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "7287e528-dc4f-4056-add9-8be78b00cec0",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-06T21:01:22Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "7287e528-dc4f-4056-add9-8be78b00cec0",
+    "dashBoardId": "69f99441131d32261477338b",
+    "title": "blockPage",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u00228d64298a-f870-433c-8915-72ad68f8dd1f\u0022,\u0022components\u0022:{\u00228d64298a-f870-433c-8915-72ad68f8dd1f\u0022:{\u0022id\u0022:\u00228d64298a-f870-433c-8915-72ad68f8dd1f\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022c6c28740-3519-4957-bf4d-648e42d1d0c1\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022c6c28740-3519-4957-bf4d-648e42d1d0c1\u0022:{\u0022id\u0022:\u0022c6c28740-3519-4957-bf4d-648e42d1d0c1\u0022,\u0022definitionId\u0022:\u0022block/69fbac436122b0a16697038a\u0022,\u0022slots\u0022:{},\u0022options\u0022:{},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "deleted": false,
+    "version": "0.0.0",
+    "workspaceId": "295e631b-345b-4226-9b44-03bda706477f",
+    "resourceId": "7287e528-dc4f-4056-add9-8be78b00cec0",
+    "name": "blockPage"
+  }
+}

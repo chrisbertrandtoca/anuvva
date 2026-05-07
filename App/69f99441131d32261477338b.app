@@ -21,6 +21,44 @@
         "hidden": false,
         "restricted": false,
         "parameters": []
+      },
+      {
+        "id": "5f45ab4c-2fff-4aac-96b8-af43e9d317fb",
+        "pageId": "69fbac226122b0a166970388",
+        "pageEntityId": "7287e528-dc4f-4056-add9-8be78b00cec0",
+        "slug": "block-page",
+        "name": "blockPage",
+        "hidden": false,
+        "restricted": false,
+        "parameters": [
+          {
+            "key": "modalFullHeight",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "modalWidth",
+            "type": "string",
+            "value": "\u0022lg\u0022"
+          },
+          {
+            "key": "dynamic",
+            "type": "boolean",
+            "value": "false"
+          },
+          {
+            "key": "dynamicSource",
+            "type": "parameter"
+          },
+          {
+            "key": "dynamicKey",
+            "type": "string"
+          },
+          {
+            "key": "modalTitle",
+            "type": "boolean"
+          }
+        ]
       }
     ],
     "dependencies": [],
